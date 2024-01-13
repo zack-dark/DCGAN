@@ -1,4 +1,6 @@
 from Generator import Generator, get_noise
+import torch
+torch.manual_seed(0)
 
 gen = Generator()
 num_test = 100

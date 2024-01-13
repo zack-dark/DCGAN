@@ -1,4 +1,6 @@
 from torch import nn
+import torch
+torch.manual_seed(0)
 
 class Discriminator(nn.Module):
     def __init__(self, im_chan=1, hidden_dim=16):

@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
+import torch
 from torchvision.utils import make_grid
+torch.manual_seed(0)
 
 
 def show_tensor_images(image_tensor, num_images=25, size=(1,28,28)):

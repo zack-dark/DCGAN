@@ -1,5 +1,7 @@
 from Discriminator import Discriminator
 from Generator import Generator, get_noise
+import torch
+torch.manual_seed(0)
 
 num_test = 100
 
